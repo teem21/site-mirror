@@ -7,8 +7,8 @@ const HeroSection = () => {
         <img
           src={heroImage}
           alt="Shadow Striker 3200 UAV in flight"
-          className="h-full w-full object-cover"
-        />
+          className="h-full w-full object-cover" />
+
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/20" />
         <div className="absolute inset-0 bg-grid-pattern opacity-10" />
       </div>
@@ -28,14 +28,14 @@ const HeroSection = () => {
           <div className="flex flex-wrap gap-4">
             <a
               href="#specs"
-              className="inline-flex items-center gap-2 bg-primary px-8 py-3 font-heading text-sm font-semibold uppercase tracking-wider text-primary-foreground transition-all hover:brightness-110"
-            >
+              className="inline-flex items-center gap-2 bg-primary px-8 py-3 font-heading text-sm font-semibold uppercase tracking-wider text-primary-foreground transition-all hover:brightness-110">
+
               View Specifications
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 border border-foreground/20 bg-transparent px-8 py-3 font-heading text-sm font-semibold uppercase tracking-wider text-foreground transition-all hover:border-primary hover:text-primary"
-            >
+              className="inline-flex items-center gap-2 border border-foreground/20 bg-transparent px-8 py-3 font-heading text-sm font-semibold uppercase tracking-wider text-foreground transition-all hover:border-primary hover:text-primary">
+
               Request a Quote
             </a>
           </div>
@@ -46,8 +46,8 @@ const HeroSection = () => {
       <div className="pointer-events-none absolute inset-0 overflow-hidden opacity-[0.03]">
         <div className="h-px w-full bg-primary animate-scan-line" />
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
