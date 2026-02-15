@@ -16,16 +16,16 @@ const specs = [
 
 const SpecsTable = () => {
   return (
-    <section id="specs" className="bg-card py-20 px-6 lg:px-16 shadow-none">
+    <section id="specs" className="py-20 px-6 lg:px-16 shadow-none text-primary-foreground border-none bg-primary-foreground">
       <div className="mx-auto max-w-4xl">
         <p className="mb-2 font-heading text-xs font-semibold uppercase tracking-[0.3em] text-primary">
           Technical Data
         </p>
-        <h2 className="mb-10 font-heading text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+        <h2 className="mb-10 font-heading text-3xl font-bold tracking-tight md:text-4xl text-secondary">
           SPECIFICATIONS
         </h2>
 
-        <div className="overflow-hidden border border-border">
+        <div className="overflow-hidden border border-border rounded-xl">
           <table className="w-full">
             <thead>
               <tr className="border-b border-border bg-secondary">
@@ -43,10 +43,10 @@ const SpecsTable = () => {
                 key={i}
                 className="border-b border-border last:border-b-0 transition-colors hover:bg-secondary/50">
 
-                  <td className="px-6 py-3.5 text-sm font-medium text-muted-foreground">
+                  <td className="px-6 py-3.5 text-sm font-medium text-primary border">
                     {s.label}
                   </td>
-                  <td className="px-6 py-3.5 text-sm text-foreground">
+                  <td className="px-6 py-3.5 text-sm text-secondary border">
                     {s.value}
                   </td>
                 </tr>
